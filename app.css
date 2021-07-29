@@ -66,7 +66,9 @@ body {
 
 @media only screen and (orientation: portrait) {
     body {
+        justify-content: flex-end;
         background: url('bg.jpg') top center / auto 100% no-repeat;
+        background: url('bg.webp') top center / auto 100% no-repeat;
     }
 
     .content {
@@ -78,6 +80,7 @@ body {
     .links {
         align-items: center;
         justify-content: center;
+        background: rgba(10, 10, 10, 0.8);
     }
 
     .link {
